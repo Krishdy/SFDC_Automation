@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="sfdcsuite"> 
+<test name="testngTest"> 
+<classes> 
+<class name="SalesForceAutomation.com.automation.AutomationScript_Test" /> 
+</classes> 
+</test> 
+</suite>
