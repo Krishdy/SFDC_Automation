@@ -74,6 +74,26 @@ public class AutomationScript_Test extends ReusableMethods{
 			WebElement logout = driver.findElement(By.xpath("//a[contains(text(),'Logout')]"));
 			click(logout, "logoutPage");
 		}
+		@Test(priority=3)
+		public static void testCase4B() {
+			CreateTestScriptReport("testCase3");
+			launchURL();
+			WebElement loginPage = driver.findElement((By.xpath("//a[contains(text(),'Login')]")));
+			loginPage.click();
+			WebElement userName = driver.findElement(By.xpath("//input[@id='username']"));
+			enterText(userName,"kdeepthiyal-yu3k@force.com","uName");
+			
+			WebElement password = driver.findElement(By.xpath("//input[@id='password']"));
+			enterText(password,"ykdeepth","upassword");
+			
+			WebElement rememberMe = driver.findElement(By.xpath("//input[@id='rememberUn']"));
+			selectCheckBox(rememberMe,"click on remember me");
+			
+			WebElement login = driver.findElement(By.xpath("//input[@id='Login']"));
+			click(login,"loginpage");
+			
+			
+		}
 
 	}
 

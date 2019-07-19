@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="40.849" tests="2" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="55.536" tests="3" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="11.0.2+9-LTS"/>
@@ -24,7 +24,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="os.name" value="Mac OS X"/>
-    <property name="classworlds.conf" value="/Users/krishnayallappa/eclipse-workspace/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf17964272028309358247.tmp"/>
+    <property name="classworlds.conf" value="/Users/krishnayallappa/eclipse-workspace/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf1278889024325761095.tmp"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
     <property name="java.library.path" value="/Users/krishnayallappa/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
     <property name="jdk.debug" value="release"/>
@@ -61,6 +61,7 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="testCase1" classname="SalesForceAutomation.com.automation.AutomationScript_Test" time="19.607"/>
-  <testcase name="testCase3" classname="SalesForceAutomation.com.automation.AutomationScript_Test" time="19.565"/>
+  <testcase name="testCase1" classname="SalesForceAutomation.com.automation.AutomationScript_Test" time="16.34"/>
+  <testcase name="testCase3" classname="SalesForceAutomation.com.automation.AutomationScript_Test" time="18.279"/>
+  <testcase name="testCase4B" classname="SalesForceAutomation.com.automation.AutomationScript_Test" time="19.321"/>
 </testsuite>
