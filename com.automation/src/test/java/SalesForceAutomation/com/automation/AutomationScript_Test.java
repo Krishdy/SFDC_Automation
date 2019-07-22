@@ -39,10 +39,10 @@ public class AutomationScript_Test extends ReusableMethods{
 			WebElement loginPage = driver.findElement((By.xpath("//a[contains(text(),'Login')]")));
 			loginPage.click();
 			WebElement userName = driver.findElement(By.xpath("//input[@id='username']"));
-			enterText(userName,"kdeepthiyallappa-yu3k@force.com","uName");
+			enterText(userName,"deepthi.krishnadeepthi-ozux@force.com","uName");
 			
 			WebElement password = driver.findElement(By.xpath("//input[@id='password']"));
-			enterText(password,"ykdeepthi024*","upassword");
+			enterText(password,"Ykdeepthi024*","upassword");
 			
 			WebElement login = driver.findElement(By.xpath("//input[@id='Login']"));
 			click(login,"loginpage");
@@ -55,10 +55,10 @@ public class AutomationScript_Test extends ReusableMethods{
 			WebElement loginPage = driver.findElement((By.xpath("//a[contains(text(),'Login')]")));
 			loginPage.click();
 			WebElement userName = driver.findElement(By.xpath("//input[@id='username']"));
-			enterText(userName,"kdeepthiyallappa-yu3k@force.com","uName");
+			enterText(userName,"deepthi.krishnadeepthi-ozux@force.com","uName");
 			
 			WebElement password = driver.findElement(By.xpath("//input[@id='password']"));
-			enterText(password,"ykdeepthi024*","upassword");
+			enterText(password,"Ykdeepthi024*","upassword");
 			
 			WebElement rememberMe = driver.findElement(By.xpath("//input[@id='rememberUn']"));
 			selectCheckBox(rememberMe,"click on remember me");
@@ -81,7 +81,7 @@ public class AutomationScript_Test extends ReusableMethods{
 			WebElement loginPage = driver.findElement((By.xpath("//a[contains(text(),'Login')]")));
 			loginPage.click();
 			WebElement userName = driver.findElement(By.xpath("//input[@id='username']"));
-			enterText(userName,"kdeepthiyal-yu3k@force.com","uName");
+			enterText(userName,"deepthi.krishnadeepthi-ozux@force.com","uName");
 			
 			WebElement password = driver.findElement(By.xpath("//input[@id='password']"));
 			enterText(password,"ykdeepth","upassword");
